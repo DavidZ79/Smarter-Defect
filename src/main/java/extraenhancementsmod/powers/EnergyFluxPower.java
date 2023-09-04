@@ -38,6 +38,6 @@ public class EnergyFluxPower extends BasePower implements CloneablePowerInterfac
     //Optional, for CloneablePowerInterface.
     @Override
     public AbstractPower makeCopy() {
-        return new ZeroPointPower(owner, amount);
+        return new EnergyFluxPower(owner, amount);
     }
 }

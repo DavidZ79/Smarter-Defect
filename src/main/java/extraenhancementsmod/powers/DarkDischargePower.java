@@ -38,7 +38,7 @@ public class DarkDischargePower extends BasePower implements CloneablePowerInter
     //Optional, for CloneablePowerInterface.
     @Override
     public AbstractPower makeCopy() {
-        return new ZeroPointPower(owner, amount);
+        return new DarkDischargePower(owner, amount);
     }
 }
 

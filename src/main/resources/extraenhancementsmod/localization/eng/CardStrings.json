@@ -48,5 +48,11 @@
     "DESCRIPTION": "Deal !D! damage. If the enemy intends to attack, Channel a Frost.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. If the enemy intends to attack, Channel a Frost and gain !B! Block.",
     "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:Resonance": {
+    "NAME": "Resonance",
+    "DESCRIPTION": "Every time an orb is Evoked, all other orbs deal 2 damage to a random enemy twice.",
+    "UPGRADE_DESCRIPTION": "Every time an orb is Evoked, all other orbs deal 3 damage to a random enemy twice.",
+    "EXTENDED_DESCRIPTION": [""]
   }
 }
