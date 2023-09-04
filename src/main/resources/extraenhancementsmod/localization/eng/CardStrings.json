@@ -60,5 +60,11 @@
     "DESCRIPTION": "Deal !D! damage. For every Dark Channeled, Heal !M!.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. For every Dark Channeled, Heal !M!.",
     "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:Stabilizer": {
+    "NAME": "Stabilizer",
+    "DESCRIPTION": "Evoke your next Orb twice.",
+    "UPGRADE_DESCRIPTION": "Evoke your next 2 Orbs twice.",
+    "EXTENDED_DESCRIPTION": [""]
   }
 }
