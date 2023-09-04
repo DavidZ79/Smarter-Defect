@@ -24,5 +24,11 @@
     "DESCRIPTION": "Every time you Channel an orb, gain !M! Block.",
     "UPGRADE_DESCRIPTION": "",
     "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:ZeroPoint": {
+    "NAME": "Zero Point",
+    "DESCRIPTION": "Whenever you Channel a Frost, gain 1 Focus for this turn.",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [""]
   }
 }
