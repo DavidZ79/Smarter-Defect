@@ -36,5 +36,11 @@
     "DESCRIPTION": "Every time you receive unblocked damage, Channel 1 Lightning, then Channel 1 Dark.",
     "UPGRADE_DESCRIPTION": "",
     "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:EnergyFlux": {
+    "NAME": "Energy Flux",
+    "DESCRIPTION": "At the start of your turn, Channel a Plasma if you have an empty orb slot.",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [""]
   }
 }
