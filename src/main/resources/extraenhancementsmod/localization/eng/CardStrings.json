@@ -54,5 +54,11 @@
     "DESCRIPTION": "Every time an orb is Evoked, all other orbs deal 2 damage to a random enemy twice.",
     "UPGRADE_DESCRIPTION": "Every time an orb is Evoked, all other orbs deal 3 damage to a random enemy twice.",
     "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:QuantumLeech": {
+    "NAME": "Quantum Leech",
+    "DESCRIPTION": "Deal !D! damage. For every Dark Channeled, Heal !M!.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. For every Dark Channeled, Heal !M!.",
+    "EXTENDED_DESCRIPTION": [""]
   }
 }

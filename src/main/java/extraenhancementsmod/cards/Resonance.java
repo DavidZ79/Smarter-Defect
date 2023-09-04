@@ -19,7 +19,7 @@ public class Resonance extends BaseCard {
 
     public Resonance() {
         super(ID, info);
-        this.baseMagicNumber = 1; // number of hits per orb evoked (twice when upgraded)
+        this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
     }
 
