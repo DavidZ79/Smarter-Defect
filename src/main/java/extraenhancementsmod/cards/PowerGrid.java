@@ -19,6 +19,8 @@ public class PowerGrid extends BaseCard {
 
     public PowerGrid() {
         super(ID, info);
+        this.baseMagicNumber = 2;
+        this.magicNumber = baseMagicNumber;
     }
 
     @Override
