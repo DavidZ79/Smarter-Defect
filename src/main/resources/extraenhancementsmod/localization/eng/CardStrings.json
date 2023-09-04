@@ -30,5 +30,11 @@
     "DESCRIPTION": "Whenever you Channel a Frost, gain 1 Focus for this turn.",
     "UPGRADE_DESCRIPTION": "",
     "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:DarkDischarge": {
+    "NAME": "Dark Discharge",
+    "DESCRIPTION": "Every time you receive unblocked damage, Channel 1 Lightning, then Channel 1 Dark.",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [""]
   }
 }
