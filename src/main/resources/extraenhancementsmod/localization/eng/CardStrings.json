@@ -96,5 +96,11 @@
     "DESCRIPTION": "At the start of your turn, evoke the next Orb and Channel the leftmost Orb.",
     "UPGRADE_DESCRIPTION": "",
     "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:OrbAmplifier": {
+    "NAME": "Orb Amplifier",
+    "DESCRIPTION": "Gain Orb slots equal to the amount of Orbs currently Channeled.",
+    "UPGRADE_DESCRIPTION": "Gain Orb slots equal to 2 plus the amount of Orbs currently Channeled.",
+    "EXTENDED_DESCRIPTION": [""]
   }
 }
