@@ -66,5 +66,35 @@
     "DESCRIPTION": "Evoke your next Orb twice.",
     "UPGRADE_DESCRIPTION": "Evoke your next 2 Orbs twice.",
     "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:QuantumShift": {
+    "NAME": "Quantum Shift",
+    "DESCRIPTION": "Randomly shuffle your Orbs.",
+    "UPGRADE_DESCRIPTION": "Randomly shuffle your Orbs. Gain [E].",
+    "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:PlasmaChain": {
+    "NAME": "Plasma Chain",
+    "DESCRIPTION": "Gain [E]  equal to !M! times your Plasma. For every Plasma, Channel 1 Lightning.",
+    "UPGRADE_DESCRIPTION": "Gain [E]  equal to !M! times your Plasma. For every Plasma, Channel 1 Lightning.",
+    "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:CircuitOverload": {
+    "NAME": "Circuit Overload",
+    "DESCRIPTION": "Deal 7 damage X times. Evoke your next Orb X times. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal 7 damage X times. Evoke your next Orb X times. Gain 7 Block X times. Exhaust.",
+    "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:EnergySink": {
+    "NAME": "Energy Sink",
+    "DESCRIPTION": "Consume all Plasma orbs. Gain [E] for each.",
+    "UPGRADE_DESCRIPTION": "Consume all Plasma orbs. Gain [E] and 2 Focus for each.",
+    "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:SynergyMatrix": {
+    "NAME": "Synergy Matrix",
+    "DESCRIPTION": "At the start of your turn, evoke the next Orb and Channel the leftmost Orb.",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [""]
   }
 }
