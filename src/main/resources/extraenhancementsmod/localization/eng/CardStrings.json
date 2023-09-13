@@ -102,5 +102,11 @@
     "DESCRIPTION": "Gain Orb slots equal to the amount of Orbs currently Channeled.",
     "UPGRADE_DESCRIPTION": "Gain Orb slots equal to 2 plus the amount of Orbs currently Channeled.",
     "EXTENDED_DESCRIPTION": [""]
+  },
+  "${modID}:OrbitalResurgence": {
+    "NAME": "Orbital Resurgence",
+    "DESCRIPTION": "Evoke all Orbs. Channel the Evoked Orbs.",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [""]
   }
 }

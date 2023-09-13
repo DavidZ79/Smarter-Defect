@@ -2,6 +2,8 @@ package extraenhancementsmod.cards;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
+import com.megacrit.cardcrawl.actions.defect.RedoAction;
 import com.megacrit.cardcrawl.actions.defect.RemoveAllOrbsAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -13,6 +15,7 @@ import extraenhancementsmod.util.CardStats;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Random;
 
 public class QuantumShift extends BaseCard {
     public static final String ID = makeID("QuantumShift");
@@ -30,36 +33,27 @@ public class QuantumShift extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        int orbNum = AbstractDungeon.player.orbs.size();
+        ArrayList<AbstractOrb> orbList = new ArrayList<AbstractOrb>();
 
-//        // This action will shuffle the orbs
-//        AbstractDungeon.actionManager.addToBottom(new AbstractGameAction() {
-//            @Override
-//            public void update() {
-//                if (p.orbs.size() > 1) {
-//                    ArrayList<AbstractOrb> shuffledCopy = new ArrayList<AbstractOrb>(p.orbs);
-//                    Collections.shuffle(shuffledCopy);
-//                    this.addToTop(new RemoveAllOrbsAction());
-//                    int b = 0;
-//                    int e = p.orbs.size() - 1;
-//                    for (int i = 0; i < p.orbs.size(); i++) { // loop through collection
-//                        if (p.orbs.get(i).ID.equals("Empty")) { // if empty, add to end
-//                            p.orbs.get(i).setSlot(e, p.maxOrbs);
-//                            e--;
-//                        } else {
-//                            // else not empty, add to beginning
-//                            p.orbs.get(i).setSlot(b, p.maxOrbs);
-//                            b++;
-//                        }
-//                    }
-//                }
-//                this.isDone = true;
-//            }
-//        });
+        for(int i = 0; i < orbNum; ++i) { // observe orbs
+            if (!(AbstractDungeon.player.orbs.get(i) instanceof EmptyOrbSlot)) {
+                orbList.add(AbstractDungeon.player.orbs.get(i));
+            }
+        }
 
-        // remove all orbs
-        // list of tuples of orbs, see dark class for passive amount
+        this.addToTop(new RemoveAllOrbsAction());
 
-        // put them back in random order
+        Random rand = new Random();
+        //AbstractOrb randomValue = orbList.get(randomIndex);
+        for(int i = 0; i < orbNum; ++i) { // channel orbs back in
+            int randomIndex = rand.nextInt(orbList.size()); // randomly choose index
+            AbstractOrb x = orbList.get(randomIndex); // get orb at index
+            orbList.remove(randomIndex);  // removes the element at the random index
+            this.addToBot(new ChannelAction(x)); // channel randomly selected orb
+        }
+
+
 
         // for upgraded version of card
         if (this.upgraded) {
