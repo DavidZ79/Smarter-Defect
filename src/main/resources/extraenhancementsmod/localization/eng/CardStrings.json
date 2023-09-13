@@ -87,7 +87,7 @@
   },
   "${modID}:EnergySink": {
     "NAME": "Energy Sink",
-    "DESCRIPTION": "Consume all Plasma orbs. Gain [E] for each.",
+    "DESCRIPTION": "Replace all Plasma with Lightning. Gain [E] for each.",
     "UPGRADE_DESCRIPTION": "Consume all Plasma orbs. Gain [E] and 2 Focus for each.",
     "EXTENDED_DESCRIPTION": [""]
   },
