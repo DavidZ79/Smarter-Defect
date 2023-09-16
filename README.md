@@ -81,7 +81,7 @@ Link to added custom card behaviours below:
 [View Google Sheets Document](https://docs.google.com/spreadsheets/d/1wejan4eyajRQZ6XYV1vfF6Mv9mNjTDCIPxlVubnSVRQ/edit#gid=0 "Google's Homepage")
 
 ## About me
-This is my first Slay the Spire mod. The guide I found the most useful is [https://github.com/Alchyr/BasicMod/wiki]("Alchur's Wiki"). 
+This is my first Slay the Spire mod. The guide I found the most useful is ["Alchyr's Wiki"](https://github.com/Alchyr/BasicMod/wiki). 
 
 TODO:
 1. Card description strings
