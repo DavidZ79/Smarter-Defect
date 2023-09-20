@@ -42,7 +42,6 @@ public class CircuitOverload extends BaseCard {
         }
     }
 
-
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();

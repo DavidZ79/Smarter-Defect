@@ -17,7 +17,6 @@ import java.util.function.BiFunction;
 import static extraenhancementsmod.util.GeneralUtils.removePrefix;
 import static extraenhancementsmod.util.TextureLoader.getCardTextureString;
 
-
 public abstract class BaseCard extends CustomCard {
     final private static Map<String, DynamicVariable> customVars = new HashMap<>();
 

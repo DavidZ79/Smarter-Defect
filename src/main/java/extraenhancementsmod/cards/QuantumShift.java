@@ -1,9 +1,7 @@
 package extraenhancementsmod.cards;
 
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.actions.defect.ChannelAction;
-import com.megacrit.cardcrawl.actions.defect.RedoAction;
 import com.megacrit.cardcrawl.actions.defect.RemoveAllOrbsAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -14,7 +12,6 @@ import com.megacrit.cardcrawl.orbs.EmptyOrbSlot;
 import extraenhancementsmod.util.CardStats;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Random;
 
 public class QuantumShift extends BaseCard {
@@ -52,8 +49,6 @@ public class QuantumShift extends BaseCard {
             orbList.remove(randomIndex);  // removes the element at the random index
             this.addToBot(new ChannelAction(x)); // channel randomly selected orb
         }
-
-
 
         // for upgraded version of card
         if (this.upgraded) {
