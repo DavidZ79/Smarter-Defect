@@ -84,11 +84,10 @@ Link to added custom card behaviours below:
 This is my first Slay the Spire mod. The guide I found the most useful is ["Alchyr's Wiki"](https://github.com/Alchyr/BasicMod/wiki). 
 
 TODO:
-1. Card description strings
-2. Card art
-3. Power icon art
-4. Power icon flashes
-5. Attack animations
-6. Remove unecessary imports and other warnings
+- Card description strings
+- Power icon art
+- Power icon flashes
+- Attack animations
+- Remove unecessary imports and other warnings
 
-
+Thank you deonchan2012 for the card and power art!
