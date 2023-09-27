@@ -90,4 +90,7 @@ TODO:
 - Attack animations
 - Remove unecessary imports and other warnings
 
+## Resources and Credits
 Thank you deonchan2012 for the card and power art!
+I used ["this"](https://imageresizer.com/) image resizer tool for card art. This tool features bulk resizing.
+["This"](https://github.com/JohnnyBazooka89/StSModdingToolCardImagesCreator) tool by JohnnyBazooka89 to trim the edges was a recommendation from Alchyr's Wiki.
