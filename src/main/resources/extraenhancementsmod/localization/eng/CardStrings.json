@@ -1,24 +1,4 @@
 {
-  "${modID}:ExampleCard": {
-    "NAME": "Name",
-    "DESCRIPTION": "Description.",
-    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
-    "EXTENDED_DESCRIPTION": [
-      "You can put more text in here.",
-      "If you need to use it for stuff.",
-      "Blizzard is a good example for this."
-    ]
-  },
-  "${modID}:MyCard": {
-    "NAME": "asdf",
-    "DESCRIPTION": "Description.",
-    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
-    "EXTENDED_DESCRIPTION": [
-      "You can put more text in here.",
-      "If you need to use it for stuff.",
-      "Blizzard is a good example for this."
-    ]
-  },
   "${modID}:PowerGrid": {
     "NAME": "Power Grid",
     "DESCRIPTION": "Every time you Channel an orb, gain !M! Block.",
