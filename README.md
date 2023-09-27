@@ -88,7 +88,7 @@ TODO:
 - Power icon art
 - Power icon flashes
 - Attack animations
-- Remove unecessary imports and other warnings
+- ZeroPoint bug fix: focus lasts beyond turn
 
 ## Resources and Credits
 Thank you deonchan2012 for the card and power art!
