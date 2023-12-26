@@ -83,7 +83,7 @@ Link to added custom card behaviours below:
 ## About me
 This is my first Slay the Spire mod. The guide I found the most useful is ["Alchyr's Wiki"](https://github.com/Alchyr/BasicMod/wiki). 
 
-TODO:
+Known Bugs:
 - Card description strings
 - Power icon art
 - Power icon flashes
@@ -91,7 +91,7 @@ TODO:
 - ZeroPoint bug fix: focus lasts beyond turn
 
 ## Resources and Credits
-Thank you deonchan2012 for the card and power art!
+Thank you deonchan2012 for the card and power art! It can be found ["here"](https://drive.google.com/drive/folders/1uKbEjf_riT0arFWRnvopNRBFt9lsG5lJ?usp=sharing).
 
 I used [this](https://imageresizer.com/) image resizer tool for card art. This tool features bulk resizing.
 
